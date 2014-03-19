@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyManager.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BoomProcess.cs" Line="5" Column="43" />
+      <File FileName="Assets\Scripts\Spider.cs" Line="30" Column="35" />
+      <File FileName="Assets\Scripts\EnemyManager.cs" Line="35" Column="103" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
