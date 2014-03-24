@@ -66,11 +66,19 @@ public class FireManager : MonoBehaviour
 	public Transform firePosition;
 	public GameObject fireObject;
 	public float power = 20.0f;
+	PlayerState _playerState = null;
 
+	void Start()
+	{
+		_playerState = GetComponent<PlayerState>();
+	}
 
 	// Update is called once per frame
 	void Update () 
 	{
+		if(_playerState.isDead)
+			return;
+
 		if(Input.GetButtonDown("Fire1"))
 		{
 			GameObject obj = Instantiate(fireObject) as GameObject; // 오브젝트의 클론 버전
@@ -82,6 +90,13 @@ public class FireManager : MonoBehaviour
 			//obj.transform.position = transform.position + (cameraTransform.right * 3.0f);
 			obj.transform.position  = firePosition.position;
 			obj.rigidbody.velocity = cameraTransform.forward * power; // 강체의 속도.
+
+			float x = Random.Range(-180.0f, 180.0f);
+			float y = Random.Range(-180.0f, 180.0f);
+			float z = Random.Range(-180.0f, 180.0f);
+
+			obj.rigidbody.angularVelocity = new Vector3(x, y, z);
+
 		}
 	}
 }

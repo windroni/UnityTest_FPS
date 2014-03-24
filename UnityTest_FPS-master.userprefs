@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyManager.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spider.cs">
     <Files>
-      <File FileName="Assets\Scripts\BoomProcess.cs" Line="5" Column="43" />
-      <File FileName="Assets\Scripts\Spider.cs" Line="30" Column="35" />
-      <File FileName="Assets\Scripts\EnemyManager.cs" Line="35" Column="103" />
+      <File FileName="Assets\Scripts\EnemyManager.cs" Line="50" Column="11" />
+      <File FileName="Assets\Scripts\Spider.cs" Line="154" Column="3" />
+      <File FileName="Assets\Scripts\PlayerState.cs" Line="29" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

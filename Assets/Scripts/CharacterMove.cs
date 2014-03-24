@@ -37,14 +37,19 @@ public class CharacterMove : MonoBehaviour
 
 	CharacterController characterController = null;
 	float yVelocity = 0.0f;
+	PlayerState _playerState = null;
 
 	void Start()
 	{
 		characterController = GetComponent<CharacterController> ();
+		_playerState = GetComponent<PlayerState>();
 	}
 
 	void Update()
 	{
+		if(_playerState.isDead)
+			return;
+
 		float x = Input.GetAxis ("Horizontal");
 		float z = Input.GetAxis ("Vertical");
 

@@ -49,11 +49,14 @@
      <Compile Include="Assets\BookPartciel\Script\AutoDestroryParticle.cs" />
      <Compile Include="Assets\BookPartciel\Script\AutoLightOff.cs" />
      <Compile Include="Assets\Scripts\BoomProcess.cs" />
+     <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\Scripts\CharacterMove.cs" />
+     <Compile Include="Assets\Scripts\DeadSpider.cs" />
      <Compile Include="Assets\Scripts\DestroyZone.cs" />
      <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\FireManager.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\PlayerState.cs" />
      <Compile Include="Assets\Scripts\Spider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

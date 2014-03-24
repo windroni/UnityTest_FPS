@@ -26,12 +26,23 @@ using System.Collections;
 // applicaton.TagetFrame~ 으로 잡는게 좋다.
 public class MouseLook : MonoBehaviour 
 {
+	PlayerState _playerState = null;
 	public float senstivity = 700.0f;
 	float rotationX;
 	float rotationY;
 
+	void Start()
+	{
+
+		_playerState = transform.parent.GetComponent<PlayerState>();
+	}
+
 	void Update()
 	{
+
+		if(_playerState.isDead)
+			return;
+
 		float mouseMoveValueX = Input.GetAxis ("Mouse X");
 		float mouseMoveValueY = Input.GetAxis ("Mouse Y");
 

@@ -43,6 +43,6 @@ public class BoomProcess : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		this.transform.Rotate(new Vector3(Random.Range(1.0f, 10.0f), Random.Range(1.0f, 10.0f), Random.Range(1.0f, 3.0f)));
+		//this.transform.Rotate(new Vector3(Random.Range(1.0f, 10.0f), Random.Range(1.0f, 10.0f), Random.Range(1.0f, 3.0f)));
 	}
 }
